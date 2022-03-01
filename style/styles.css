@@ -16,23 +16,32 @@ input{
     font-size: 22px;
     width: auto;
     height: 35px;
-    border: 2px solid rgb(7, 7, 7);
-    border-radius: 5px;
+    border: 0px rgb(67, 67, 223);
+    border-radius: 30px;
+    text-align: end;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0, 0, 0, .16);            
 }
 
 button{
     width: 62px;
     height: 62px;
     margin: 2px;
-    border-radius: 20px;
-    font-size: 10px;
-    background-color: rgb(34, 207, 238);
+    border-radius: 31px;
+    font-size: 1rem;
+    background-color: rgb(250, 253, 253);
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0, 0, 0, .16);
+    border: 0;
+    outline: 0;
 }
 
 .calculator{
-    border: 2px solid red;
+    /* border: 2px solid rgb(252, 252, 253); */
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 20px;
-    background-color: rgb(30, 30, 32);
+    background-color: whitesmoke;
+    box-shadow: inset 5px 5px 12px #ffff,
+                      5px 5px 12px rgba(0, 0, 0, .16);
 }
